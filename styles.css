@@ -1,0 +1,25 @@
+.section-header {
+  color: lightseagreen;
+}
+
+ul {
+  list-style-position: inside; /* Moves bullet inside the padding area */
+  padding-left: 0; /* Removes default padding */
+}
+
+ul li {
+  padding-left: 40px;
+}
+
+ul ul {
+  padding-left: 20px; /* Indent nested ul */
+}
+ul ul ul {
+  padding-left: 40px; /* Further indent third-level lists, etc. */
+}
+
+.bar {
+  margin-top: 80px; 
+  height: 10px; 
+  background-color: blueviolet;
+}

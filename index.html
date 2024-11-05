@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>D279 Task-1</title>
+</head>
+
+<body id="content">
+    <div class="container">
+        <div class="row">
+            <hr class="bar">
+        </div>
+        <div class="row">
+            <h3>D279 UI Design</h3>
+            <div>Andre Burke</div>
+            <div>BS Software Engineering</div>
+        </div>
+        <div style="height: 100px;"></div>
+        <div class="row">
+            <h1>Performance Assessment - Task 1</h1>
+            <h4 style="color: gray">Pet Paradigm Website Redesign Proposal</h4>
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4>Objectives</h4>
+            <ul class="">
+                <li class="">Your first objective is to evaluate the existing website and user design
+                    specifications
+                    provided by Paradigm Pet Professionals (see Web Links and Supporting Documents sections).
+                    You will also develop a sitemap and wireframe for the redeveloped website.</li>
+                <li class="">Your second objective is to create an interactive desktop prototype of the
+                    redeveloped
+                    website according to the design specifications provided by Paradigm Pet Professionals.</li>
+            </ul>
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4 class="section-header"> A.1 - Functionality + Audience & Stakeholder Needs</h4>
+            <ul>
+                <li><b>Stakeholder Needs:</b></li>
+                <ul>
+                    <li>Pet Paradigm owners and stakeholders need a website that improves navigation and content clarity for
+                        users, offers basic pet care advice for common pet types, enables users to easily contact the company
+                        for
+                        consultations, and highlights the company's values to strengthen brand recognition.</li>
+                </ul>
+                <li><b>Audience Needs:</b></li>
+                <ul>
+                    <li>
+                        Users of the Pet Paradigm website require easy navigation, content written in plain language for
+                        better
+                        understanding, accessibility features, and a responsive design to ensure optimal usability across
+                        various
+                        device screen sizes.
+                    </li>
+                </ul>
+                <li>
+                    <b>Proposed Microinteractions:</b>
+                </li>
+                <ul>
+                    <li>Ensure all images and buttons (navigation, links, sharing) have descriptive text for accessibility.
+                    </li>
+                    <li>Display company contact information, including phone number and email, at the top and bottom of each
+                        page
+                        for easy access.</li>
+                    <li>Include a hover animation on the navigation bar, along with an audio response when clicked, to improve
+                        interactive navigation.</li>
+                    <li>Add social media sharing buttons on or just below the navigation bar to encourage content sharing.
+                    </li>
+                    <li>Underline all hyperlinks to improve link visibility and usability.</li>
+                    <li>Provide options to share or download article content and educational resources with a clearly visible
+                        button.</li>
+                    <li>Implement a contact form with options for consultation requests. The form should provide animated and
+                        auditory feedback on submission, signaling success or failure. Unsuccessful submissions will trigger a
+                        visual alert, preventing form resubmission until errors are corrected. A “Schedule an Appointment”
+                        button
+                        and a direct link to the “About” page with contact information will be placed in the navigation bar
+                        and at
+                        the top of each footer.</li>
+                </ul>
+            </ul>
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4 class="section-header"> A.2 - New Content & User Personas</h4>
+            <ul>
+                <li><b>Persona: Fish Owners</b></li>
+                <ul>
+                    <li>Fish owners require information about creating a safe, habitable environment for their fish.
+                        New content on a dedicated page would address care and maintenance for fresh and saltwater fish,
+                        advocating for the use of water testing kits, detailing safe water chemical levels, and providing
+                        access
+                        to consultations with “Pexperts.” This content is essential to help owners maintain a healthy aquatic
+                        habitat.</li>
+                </ul>
+                <li><b>Persona: Reptile Owners</b></li>
+                <ul>
+                    <li>Reptile owners seek guidance on proper habitat setup, temperature regulation, and species-specific
+                        care.
+                        New content could include information on habitat essentials (such as humidity and UV lighting), diet
+                        recommendations, and tips for handling and health monitoring. Access to a “Pexpert” consultation for
+                        issues like tank setup or health concerns would also be valuable.</li>
+                </ul>
+                <li><b>Persona: Bird Owners</b></li>
+                <ul>
+                    <li>Bird owners need information on proper cage size, enrichment, and diet to support their bird's health
+                        and
+                        well-being. New content could address habitat enrichment ideas, daily interaction tips, dietary needs,
+                        and
+                        common health indicators to monitor. The ability to consult a “Pexpert” on topics such as
+                        socialization or
+                        health check-ups would be highly beneficial.</li>
+                </ul>
+                <li><b>Navigation Enhancements:</b></li>
+                <ul>
+                    <li>Redesigned website elements will make it easier for user owners to locate
+                        relevant information. Adding a links in a dropdown menu on the navigation bar enables quick access
+                        to pet-specific resources within 1-2 clicks. A “Schedule an Appointment” contact form allows pet
+                        owners
+                        to easily arrange consultations for additional services, and information. The responsive
+                        site design will ensure efficient, mobile-friendly access to pet care resources.</li>
+                </ul>
+            </ul>
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4 class="section-header"> A.3 - Identify Content for Removal or Redevelopment</h4>
+            <ul>
+                <li>All webpages will be redesigned to be fully responsive, ensuring compatibility across various screen
+                    sizes,
+                    including mobile, tablet, and desktop.</li>
+                <li>Redesign and expand the navigation bar, addressing bugs for seamless functionality.</li>
+                <ul>
+                    <li>Navigation-correct “Cats” tab highlighting blue when viewing the Dog page.</li>
+                    <li>Navigation-resolve broken “Home” link on the FAQ page.</li>
+                    <li>Navigation-add blue highlighting to the “Cats” tab when it is the active/current page.</li>
+                    <li>Navigation-ensure Dog and Cat tabs display in correct order on the FAQ page.</li>
+                    <li>Navigation-fix “Home” tab incorrectly highlighted blue on the FAQ page.</li>
+                </ul>
+                <li>The FAQ section will be redesigned as the “About Us” page.</li>
+                <ul>
+                    <li>Pet-specific information will be located in corresponding pet pages. Business contact information,
+                        mission/values, slogan, etc., will be featured in “About Us.”</li>
+                </ul>
+                <li>Additional content will be integrated across all pages to expand existing topics; preexisting content may
+                    be
+                    edited to ensure smooth flow with new additions.</li>
+                <li>Redesign home page/landing page content refering back to sections A.1, A.2.</li>
+                <li>A “Top Pet Care Tips” section will be added to each pet-specific page, summarizing key recommendations for
+                    users seeking quick, easy access to the business's guidance.
+                </li>
+            </ul>
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4 class="section-header"> A.4 - Visual Sitemap</h4>
+            <img class="img-fluid w-75 mx-auto mt-5" src="assets/d279-sitemap.png" alt="">
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4 class="section-header"> A.5 - Aligning with Audience & stakeholders</h4>
+            <ul>
+                <li><b>Stakeholder Needs:</b></li>
+                <ul>
+                    <li>To boost brand recognition and establish a consistent brand presence, stakeholders want the site to be
+                        optimized for search engines through relevant keywords and SEO-friendly design. A universal footer
+                        will be
+                        added to each webpage, including accessible links or buttons for the contact form and company
+                        information.
+                        An “About” page will be introduced, offering users insights into the company's mission, values, and
+                        purpose. This page will also showcase the company's slogan or brand value statement below the header
+                        text
+                        and integrate it thoughtfully throughout the site's content where appropriate.</li>
+                    <li>Stakeholders share a similar need with their audience for an intuitive website experience,
+                        prioritizing
+                        easy navigation, clear content comprehension, and the addition of a user-friendly contact form for
+                        direct
+                        engagement with the company.</li>
+                    <li>Stakeholders aim to deliver high-quality, relevant information on pet healthcare, which will lead to
+                        the
+                        creation of dedicated, informative content on each pet-specific page. This content will focus on
+                        educating
+                        pet owners on best practices and health tips tailored to various pet types.</li>
+                </ul>
+                <li><b>Audience Needs:</b></li>
+                <ul>
+                    <li>To enhance content comprehension and accessibility, all written content will undergo review and
+                        reformatting in alignment with the US National Archives and Records Administration (NARA) guidelines
+                        for
+                        plain language. Each pet-specific page will feature a summary at the top, listing key recommendations
+                        to
+                        provide quick, easily accessible information. Additionally, microinteractions will be incorporated
+                        throughout the site, enhancing the user experience by adding subtle visual, auditory, and animated
+                        cues to
+                        elements like the navigation bar, images, hyperlinks, and contact information. Social media sharing
+                        options will also be integrated to encourage users to interact and share content with ease.</li>
+                    <li>To address accessibility and engagement, a dedicated “Contact Us” page will be introduced, featuring
+                        an
+                        appointment scheduling form, enabling users to directly reach out to the business.</li>
+                    <li>For optimal website responsiveness, the site will be developed to adapt seamlessly to various screen
+                        sizes, including desktop, tablet, and mobile devices. The page layouts will be structured with a clear
+                        information hierarchy, presenting the most critical and frequently accessed content or tools from top
+                        to
+                        bottom. This approach ensures users can easily find relevant information no matter the device they
+                        use,
+                        creating an inclusive, user-friendly experience.</li>
+                    <li>To improve ease of navigation, the navigation bar will be redesigned and expanded, with content
+                        organized
+                        into specific categories labeled clearly by navigation link names. This structure will enable users to
+                        scan the navigation bar and efficiently locate the content or actions they seek, ensuring a smooth,
+                        self-directed experience.
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4 class="section-header"> A.6 - Primary and Secondary Navigation Elements</h4>
+            <ul>
+                <li><b>Navigation Elements:</b></li>
+                <ul>
+                    <li><b>Primary Navigation Elements:</b></li>
+                    <ul>
+                        <li><b>Navigation Bar</b> - The main navigation bar will offer quick access to essential sections of
+                            the
+                            website, ensuring users can easily reach key pages.</li>
+                        <ul>
+                            <li>Links will be provided to primary pages like Home, About Us, Schedule an Appointment, and Pet
+                                Information.</li>
+                            <li>Users should be able to access any page within 1-2 clicks, enhancing their browsing experience
+                                with minimal effort.</li>
+                        </ul>
+                        <li><b>Footer</b> - Designed to provide convenient access to company information.</li>
+                        <ul>
+                            <li>A “Schedule an Appointment” button will be placed above the footer, linking directly to the
+                                contact form page.</li>
+                            <li>The footer will also include a link to the “About” page, enabling users to access detailed
+                                company
+                                information and contact details.</li>
+                        </ul>
+                        <li><b>Company Logo</b> - Positioned at the top of each page, the company logo will act as a quick
+                            link
+                            back to the homepage when clicked, ensuring ease of navigation across the site.</li>
+                    </ul>
+                    <li><b>Secondary Navigation Elements:</b></li>
+                    <ul>
+                        <li><b>Top Pet Care Tips</b> - Each pet-specific page will feature a “Top Pet Care Tips” section at
+                            the
+                            top, summarizing essential recommendations for quick, easy access to the most relevant advice.
+                        </li>
+                        <li><b>Contact Form</b> - The “Schedule an Appointment” link in the navigation bar will lead users
+                            directly to a contact form, streamlining the process of connecting with the company.</li>
+                        <li><b>Search Feature</b> - A search bar will be integrated into the navigation bar, allowing users to
+                            find content quickly without relying solely on the navigation structure or dropdown menus. This
+                            feature enhances accessibility and expedites content retrieval.</li>
+                        <li><b>Dropdown Menu </b> - A dropdown menu will appear when hovering over or clicking on the “Pet
+                            Information” link in the navigation bar, providing options if multiple pages fall under this
+                            primary
+                            category (as indicated in the sitemap).</li>
+                    </ul>
+                    <li><b>Navigation Awareness Strategies:</b></li>
+                    <ul>
+                        <li><b>Current Page Highlighting</b> - A color change will indicate the user's current location on the
+                            navigation bar and dropdown menu, helping users stay oriented as they navigate.</li>
+                        <li><b>Page Headings</b> - Each pet-specific page will include a distinct heading to provide a clear
+                            indication of the user's location within the website.</li>
+                        <li><b>Link Color Change</b> - All links will change color once clicked, signaling which pages or
+                            content
+                            have already been accessed.</li>
+                        <li><b>Titles and Subheadings</b> - Organized use of titles and subheadings on each page will help
+                            structure content and guide the visitor through various sections efficiently.
+                        </li>
+                    </ul>
+                </ul>
+                <li><b>Navigation Elements: Meeting Stakeholder Needs</b></li>
+                <ul>
+                    <li>The primary navigation elements outlined above address stakeholder needs for a streamlined and
+                        intuitive
+                        navigation experience. By offering a well-organized navigation bar, consistent footer, and company
+                        logo
+                        link at the top of every page, the design supports easy access to essential information and services,
+                        enhancing user satisfaction.</li>
+                    <li>Secondary navigation elements, including the dropdown menu and summarized content sections, fulfill
+                        stakeholder needs for accessibility and user support. The dropdown menu offers additional pathways to
+                        detailed pet care information, while the contact form streamlines communication with the business. The
+                        “Top Pet Care Tips” summaries further enhance content accessibility and understanding, helping users
+                        quickly grasp key information.</li>
+                    <li>The footer also strengthens brand recognition by providing consistent company contact information
+                        across
+                        the site. This setup not only improves functionality but also ensures users can conveniently reach out
+                        for
+                        services or inquiries, directly aligning with stakeholders' objectives for engagement and brand
+                        visibility.</li>
+                </ul>
+                <li><b>Navigation Elements: Meeting Audience Needs</b></li>
+                <ul>
+                    <li>The primary navigation elements address audience needs by ensuring a seamless browsing experience. The
+                        structured navigation bar allows users to explore various pages effortlessly, while the footer
+                        provides
+                        easy access to company information, enhancing the usability of services offered. Additionally, the
+                        prominently placed company logo at the top of each page allows users to return to the homepage with
+                        ease,
+                        improving site navigation for all visitors.
+                    </li>
+                    <li>Secondary navigation elements meet the audience's need for simplicity and accessibility. The dropdown
+                        menu
+                        enables users to navigate directly to specific content areas related to pet care. The contact form,
+                        accessible via the “Schedule an Appointment” link, fulfills the audience's need for convenient ways to
+                        contact the business. Moreover, the inclusion of a “Top Pet Care Tips” section at the beginning of
+                        each
+                        pet-specific page provides a concise, accessible summary, making it easier for users to locate and
+                        comprehend key information.</li>
+                </ul>
+            </ul>
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4 class="section-header"> B - Wireframe</h4>
+            <img class="img-fluid w-75 mx-auto mt-5" src="assets/d279-wireframe.png" alt="">
+        </div>
+        <div style="height: 60px;"></div>
+        <div class="row">
+            <h4 class="section-header">C - Desktop Prototype (See Zip File)</h4>
+        </div>
+        <div style="height: 100px;"></div>
+        <div class="row">
+            <h1>REFERENCES</h1>
+            <ul>
+                <li><a href="https://www.w3schools.com/Css/css_rwd_intro.asp">W3Schools - Responsive Web Design
+                        Introduction</a>
+                </li>
+                <br>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design">MDN Web Docs -
+                        Responsive Design</a></li>
+                <br>
+                <li><a href="https://www.flux-academy.com/blog/20-wireframe-examples-for-web-design">Flux Academy - 20
+                        Wireframe
+                        Examples for Web Design</a></li>
+                <br>
+                <li><a href="https://www.justinmind.com/wireframe/inspiring-web-and-mobile-wireframe-and-prototype-examples">Justinmind
+                        - 60+ Inspiring Web and Mobile Wireframe and Prototype Examples</a></li>
+                <br>
+                <li><a href="https://alvarotrigo.com/blog/wireframe-examples/">Alvaro Trigo - 17 Great Website Wireframe
+                        Examples</a></li>
+                <br>
+                <li>(N.D.). HTML to PDF <a href="https://www.sejda.com/html-to-pdf" target="_blank"
+                        rel="noopener noreferrer">https://www.sejda.com/html-to-pdf</a></li>
+                <br>
+                <li>(N.D.). User Interface Design Course Materials - WGU</li>
+            </ul>
+        </div>
+        <div class="row">
+            <hr class="bar">
+        </div>
+        <button onclick="generatePDF()" hidden>Download as PDF</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script>
+        function generatePDF() {
+            // Select the HTML element you want to convert
+            const element = document.getElementById('content');
+
+            // Generate the PDF
+            html2pdf()
+                .from(element)
+                .set({
+                    margin: 1,
+                    filename: 'my-webpage.pdf',
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true },
+                    jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+                })
+                .save();
+        }
+    </script>
+</body>
+
+</html>
