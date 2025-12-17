@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Transportation | Visit Taniti</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header>
+        <nav class="nav" aria-label="Primary">
+            <div class="brand" aria-label="Visit Taniti">Visit Taniti</div>
+            <a href="index.html">Home</a>
+            <a href="attractions.html">Attractions</a>
+            <a href="lodging.html">Lodging</a>
+            <a href="placeholder.html">Dining</a>
+            <a href="transportation.html">Transportation</a>
+            <a href="plan-trip.html">Plan your trip</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main id="main" aria-label="Main content">
+            <section class="page-content">
+                <h1>Transportation on Taniti</h1>
+
+                <p class="lead">
+                    Getting around Taniti is easy! Choose from various transportation options depending on your lodging and travel
+                    preferences.
+                </p>
+
+                <div class="transport-info-section">
+                    <h2>Transportation by Lodging Type</h2>
+
+                    <div class="transport-options">
+                        <div class="transport-option">
+                            <h3>🏨 Four-Star Resort</h3>
+                            <p><strong>Included Transportation:</strong> The resort offers complimentary shuttle service to the
+                                airport, Taniti City, and major attractions. No additional transport needed for most guests!</p>
+                        </div>
+
+                        <div class="transport-option">
+                            <h3>🏠 Hotels, B&Bs, and Private Rentals</h3>
+                            <p><strong>Recommended:</strong> Rental car for maximum flexibility. Many properties offer free
+                                parking. Some hotels provide airport pickup service.</p>
+                        </div>
+
+                        <div class="transport-option">
+                            <h3>🎒 Hostel</h3>
+                            <p><strong>Options:</strong> Walking distance to city attractions. Public buses, bicycle rentals, and
+                                occasional taxi service are perfect for hostel guests on a budget.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transport-info-section">
+                    <h2>Available Transportation Options</h2>
+
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <h3>🚗 Rental Cars</h3>
+                            <p>Most popular option among visitors. Available near the airport and in Taniti City.</p>
+                            <ul>
+                                <li>Wide selection of vehicles</li>
+                                <li>Daily and weekly rates</li>
+                                <li>Valid driver's license required</li>
+                                <li>GPS available upon request</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>🚌 Public Buses</h3>
+                            <p>Affordable way to get around Taniti City and nearby areas.</p>
+                            <ul>
+                                <li>Taniti City: 5 AM - 11 PM daily</li>
+                                <li>Private buses serve the rest of the island</li>
+                                <li>Multi-day passes available</li>
+                                <li>Schedules available at hotels</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>🚕 Taxis</h3>
+                            <p>Convenient for short trips and airport transfers.</p>
+                            <ul>
+                                <li>Available in Taniti City</li>
+                                <li>Can be arranged through hotels</li>
+                                <li>Metered and flat-rate options</li>
+                                <li>Credit cards accepted</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>🚲 Bicycle Rentals</h3>
+                            <p>Perfect for exploring flat, walkable areas like Taniti City.</p>
+                            <ul>
+                                <li>Helmets required by law (included)</li>
+                                <li>Hourly and daily rates</li>
+                                <li>Available near beaches and hotels</li>
+                                <li>Great for short distances</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="trip-form transport-form" action="placeholder.html" method="get">
+                    <div class="form-section">
+                        <h2>Book Your Transportation</h2>
+
+                        <div class="form-group">
+                            <label for="lodging-type">Where are you staying?</label>
+                            <select id="lodging-type" name="lodging-type" required>
+                                <option value="">Select your lodging type</option>
+                                <option value="resort">Four-Star Resort (Complimentary shuttle included)</option>
+                                <option value="hotel">Family-Owned Hotel</option>
+                                <option value="bnb">Bed & Breakfast</option>
+                                <option value="rental">Private Rental</option>
+                                <option value="hostel">Hostel</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="transport-type">Select Transportation Type</label>
+                            <select id="transport-type" name="transport-type" required>
+                                <option value="">Choose transportation</option>
+                                <option value="car-compact">Rental Car - Compact</option>
+                                <option value="car-sedan">Rental Car - Sedan</option>
+                                <option value="car-suv">Rental Car - SUV</option>
+                                <option value="bicycle">Bicycle Rental</option>
+                                <option value="bus-pass">Multi-Day Bus Pass</option>
+                                <option value="none">No transportation needed</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="rental-duration">Rental Duration (days)</label>
+                            <input type="number" id="rental-duration" name="rental-duration" min="1" max="30"
+                                placeholder="Number of days" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pickup-date">Pickup Date</label>
+                            <input type="date" id="pickup-date" name="pickup-date" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pickup-location">Pickup Location</label>
+                            <select id="pickup-location" name="pickup-location" required>
+                                <option value="">Select pickup location</option>
+                                <option value="airport">Taniti Airport</option>
+                                <option value="city-center">Taniti City Center</option>
+                                <option value="resort">Four-Star Resort</option>
+                                <option value="merriton">Merriton Landing</option>
+                                <option value="hotel-delivery">Hotel Delivery</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="customer-name">Full Name</label>
+                            <input type="text" id="customer-name" name="customer-name" placeholder="Enter your full name"
+                                required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="customer-email">Email Address</label>
+                            <input type="email" id="customer-email" name="customer-email" placeholder="your.email@example.com"
+                                required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="license-number">Driver's License Number (if renting vehicle)</label>
+                            <input type="text" id="license-number" name="license-number" placeholder="Enter license number" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="special-needs">Special Requirements or Requests</label>
+                            <textarea id="special-needs" name="special-needs" rows="3"
+                                placeholder="GPS, child seats, wheelchair accessible vehicle, etc."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="cta-row">
+                        <button type="submit" class="btn btn-primary">Book Transportation</button>
+                        <a class="btn" href="lodging.html">Back to Lodging</a>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer aria-label="Footer">
+        <div class="footer-inner">
+            <div class="footer-links" aria-label="Footer links">
+                <a href="placeholder.html">Contact</a>
+                <a href="placeholder.html">Safety</a>
+                <a href="placeholder.html">Currency</a>
+                <a href="placeholder.html">Power</a>
+                <a href="placeholder.html">Social</a>
+            </div>
+
+            <div id="contact" class="muted">
+                <strong>Contact:</strong> Taniti Tourism Office (placeholder) | Taniti City, Yellow Leaf Bay
+            </div>
+
+            <div id="social" class="muted">
+                <strong>Social:</strong> Add official links here (placeholder)
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>
